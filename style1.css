@@ -1,0 +1,32 @@
+.login-container {
+  width: 300px;
+  font-family: sans-serif;
+}
+
+/* Выстраиваем элементы формы в колонку */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Стили для подписей */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Стили для полей ввода */
+input {
+  margin-bottom: 15px; /* Отступ между блоками */
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Кнопка */
+button {
+  padding: 10px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
