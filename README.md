@@ -1,2 +1,2 @@
 # 1project
-<a href="link">Take</a>
+<a href="link">Link to page</a>

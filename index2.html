@@ -4,19 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Друга частина топу фільмів для перегляду. Вибирайте серед нових трилерів та смішних фільмів.">
-    <title>Топ фільмів для перегляду - Ще більше реккомендацій</title>
-    <link rel="stylesheet" href="style1.css">
+    <title>Kino_look</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
+
+    <header class="my-panel">
+        <div class="my-div">
+            <a href="#" class="my-trap"> Kino_look</a>
+            <button onclick="changeSize(1.1)" class="my-button">A+</button>
+            <button onclick="changeSize(0.9)" class="my-button">A-</button>
+            <button onclick="toggleTheme()" class="my-1button">Змінити колір</button>
+        </div>
+
+    </header>
+
+
+
+
 
     <main>
         <section id="popular">
             <h2 class="h">Популярні фільми частина 2</h2>
             <article>
-                <h3 class="h2">Зверополіс 2 </h3>
+                <h3 class="h2">Супер Маріо: Галактичне кіно</h3>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMsK4WogO2l_Rv7RtlzQZU5zKNmUQNO4qt6g&s"
                     alt="Супер Маріо: Галактичне кіно"><br>
                 <a href="https://uafix.net/cartoons/bratu-super-mario-geleksi-v-kino/ " class="film">Супер Маріо:
@@ -53,18 +65,26 @@
             </article>
         </section>
     </main>
+    <div class="menu">
+        <a href="index.html" class="b">1</a>
+        <a href="index2.html" class="b">2</a>
+    </div>
+    <footer class="main-footer">
+        <div class="footer-content">
+            <h3>Свяжитесь с нами</h3>
+            <ul class="contact-list">
+                <!-- Ссылка для почты: при клике откроется почтовый клиент -->
+                <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
 
+                <!-- Ссылка для телефона: при клике на смартфоне пойдет вызов -->
+                <li>Тел: <a href="tel:+79001234567">+38 (900) 123-45-67</a></li>
 
-
-<a href="index1.html" class="lol">1</a>
-<a href="index2.html" class="lil">2</a>
-
-
-
-
-
-
-
+                <!-- Адрес текстом -->
+                <li>Адреса: вул. Весіння, д. 10, офіс 5</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 
 </body>
 

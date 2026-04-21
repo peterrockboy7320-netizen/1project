@@ -29,17 +29,50 @@ nav a {
     text-decoration: none;
 }
 
-.l {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-top: 175px;
-    gap: 10px;
+
+
+
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    /*center*/
+    margin-top: 90px;
 }
 
-h2 {
-text-align: left;
-margin-bottom: 5px;
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 15px;
+    /* Отступ между блоками */
+    padding: 8px;
+    border: 2px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+.login-button {
+    display: flex;
+    text-align: center;
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 0;
+  background: #d3d3d3;      /* Сірий фон */
+  color: #000;
+  text-decoration: none;
+  font: 14px Arial;
+  border: 2px solid #000;  
+  box-sizing: border-box;
 }

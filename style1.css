@@ -1,32 +1,24 @@
-.login-container {
-  width: 300px;
-  font-family: sans-serif;
+body {
+    background-image:url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?semt=ais_hybrid&w=740&q=80) ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
 }
-
-/* Выстраиваем элементы формы в колонку */
-form {
-  display: flex;
-  flex-direction: column;
+.film {
+    text-decoration: none;
+    font-size: 32px;
 }
-
-/* Стили для подписей */
-label {
-  font-weight: bold;
-  margin-bottom: 5px;
+.lol {
+    text-decoration: none;
+    color: white;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
 }
-
-/* Стили для полей ввода */
-input {
-  margin-bottom: 15px; /* Отступ между блоками */
-  padding: 8px;
-  border: 1px solid #ccc;
-}
-
-/* Кнопка */
-button {
-  padding: 10px;
-  background-color: #ddd;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
+.lil {
+      text-decoration: none;
+    color: lightgreen;
+    font-size: 64px; 
+        display: flex;
+    justify-content: center; 
 }
