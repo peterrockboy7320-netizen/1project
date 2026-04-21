@@ -1,16 +1,26 @@
-header.s {
+.modern {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15 50;
+    padding: 20px 50px;
     background-color: #1e1e2f;
     color: white;
+
+    
 }
-.brand {
+.my-brand {
     display: flex;
     align-items: center;
     gap: 10;
     font-weight: bolder;
     cursor: pointer;
     color: aqua;
+    font-size: 32px;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    color: white;
 }
